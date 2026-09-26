@@ -1,0 +1,17 @@
+# WIPE OUT SYSTEM BUILD GENERATION DIRECTORIES
+bin/
+obj/
+
+# PURGE NATIVE PLATFORM DEPENDENCIES & RUNTIME ARTIFACTS
+*.dll
+*.exe
+*.pdb
+*.suo
+*.user
+*.deps.json
+*.runtimeconfig.json
+
+# EXTRACT INTERNAL IDE METADATA TRACKS
+.rider/
+.idea/
+.vs/
